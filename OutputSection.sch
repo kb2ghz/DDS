@@ -1,0 +1,296 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date "2020-08-01"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KB2GHZ:AD5330 U16
+U 1 1 5F0E2419
+P 7400 2450
+F 0 "U16" H 7350 2350 50  0000 C CNN
+F 1 "AD5330" H 7375 2274 50  0000 C CNN
+F 2 "" H 7400 2350 50  0001 C CNN
+F 3 "" H 7400 2350 50  0001 C CNN
+	1    7400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EPROM:27C512 U15
+U 1 1 5F0E428D
+P 4100 3700
+F 0 "U15" H 4200 4850 50  0000 C CNN
+F 1 "27C512" H 4300 4750 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 4100 3700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf" H 4100 3700 50  0001 C CNN
+	1    4100 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 7050 7050 0    50   ~ 0
+Mike McCann KB2GHZ
+Text GLabel 3700 2800 0    50   Input ~ 0
+ROM0
+Text GLabel 3700 2900 0    50   Input ~ 0
+ROM1
+Text GLabel 3700 3000 0    50   Input ~ 0
+ROM2
+Text GLabel 3700 3100 0    50   Input ~ 0
+ROM3
+Text GLabel 3700 3200 0    50   Input ~ 0
+ROM4
+Text GLabel 3700 3300 0    50   Input ~ 0
+ROM5
+Text GLabel 3700 3400 0    50   Input ~ 0
+ROM6
+Text GLabel 3700 3500 0    50   Input ~ 0
+ROM7
+Text GLabel 3700 3600 0    50   Input ~ 0
+ROM8
+Text GLabel 3700 3700 0    50   Input ~ 0
+ROM9
+Text GLabel 3700 3800 0    50   Input ~ 0
+ROM10
+Text GLabel 3700 3900 0    50   Input ~ 0
+ROM11
+Text GLabel 3700 4000 0    50   Input ~ 0
+ROM12
+Text GLabel 3700 4100 0    50   Input ~ 0
+ROM13
+Text GLabel 3700 4200 0    50   Input ~ 0
+ROM14
+Text GLabel 3700 4300 0    50   Input ~ 0
+ROM15
+$Comp
+L power:GND #PWR?
+U 1 1 5F2E4CE4
+P 4100 4800
+F 0 "#PWR?" H 4100 4550 50  0001 C CNN
+F 1 "GND" H 4105 4627 50  0000 C CNN
+F 2 "" H 4100 4800 50  0001 C CNN
+F 3 "" H 4100 4800 50  0001 C CNN
+	1    4100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F2E521D
+P 4100 2600
+F 0 "#PWR?" H 4100 2450 50  0001 C CNN
+F 1 "+5V" H 4115 2773 50  0000 C CNN
+F 2 "" H 4100 2600 50  0001 C CNN
+F 3 "" H 4100 2600 50  0001 C CNN
+	1    4100 2600
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	8200 2000 5000 2000
+Entry Wire Line
+	8100 3100 8200 3200
+Entry Wire Line
+	8100 2950 8200 3050
+Entry Wire Line
+	8100 3850 8200 3950
+Entry Wire Line
+	8100 3700 8200 3800
+Entry Wire Line
+	8100 3550 8200 3650
+Entry Wire Line
+	8100 3400 8200 3500
+Entry Wire Line
+	8100 3250 8200 3350
+Entry Wire Line
+	8100 2800 8200 2900
+Wire Wire Line
+	7800 2800 8100 2800
+Wire Wire Line
+	7800 2950 8100 2950
+Wire Wire Line
+	7800 3250 8100 3250
+Wire Wire Line
+	7800 3100 8100 3100
+Wire Wire Line
+	7800 3400 8100 3400
+Wire Wire Line
+	7800 3550 8100 3550
+Wire Wire Line
+	7800 3700 8100 3700
+Wire Wire Line
+	7800 3850 8100 3850
+Entry Wire Line
+	4900 3000 5000 3100
+Entry Wire Line
+	4900 3100 5000 3200
+Entry Wire Line
+	4900 3200 5000 3300
+Entry Wire Line
+	4900 3300 5000 3400
+Entry Wire Line
+	4900 3400 5000 3500
+Entry Wire Line
+	4900 3500 5000 3600
+Entry Wire Line
+	4900 2900 5000 3000
+Entry Wire Line
+	4900 2800 5000 2900
+Wire Wire Line
+	4500 2800 4900 2800
+Wire Wire Line
+	4500 2900 4900 2900
+Wire Wire Line
+	4500 3000 4900 3000
+Wire Wire Line
+	4500 3100 4900 3100
+Wire Wire Line
+	4500 3200 4900 3200
+Wire Wire Line
+	4500 3300 4900 3300
+Wire Wire Line
+	4500 3400 4900 3400
+Wire Wire Line
+	4500 3500 4900 3500
+Text Label 4600 2800 0    50   ~ 0
+D0
+Text Label 4600 2900 0    50   ~ 0
+D1
+Text Label 4600 3000 0    50   ~ 0
+D2
+Text Label 4600 3100 0    50   ~ 0
+D3
+Text Label 4600 3200 0    50   ~ 0
+D4
+Text Label 4600 3300 0    50   ~ 0
+D5
+Text Label 4600 3400 0    50   ~ 0
+D6
+Text Label 4600 3500 0    50   ~ 0
+D7
+Text Label 7900 3850 0    50   ~ 0
+D0
+Text Label 7900 3700 0    50   ~ 0
+D1
+Text Label 7900 3550 0    50   ~ 0
+D2
+Text Label 7900 3400 0    50   ~ 0
+D3
+Text Label 7900 3250 0    50   ~ 0
+D4
+Text Label 7900 3100 0    50   ~ 0
+D5
+Text Label 7900 2950 0    50   ~ 0
+D6
+Text Label 7900 2800 0    50   ~ 0
+D7
+Wire Wire Line
+	3700 4500 3600 4500
+Wire Wire Line
+	3700 4600 3600 4600
+Wire Wire Line
+	3600 4500 3600 4600
+Connection ~ 3600 4600
+Wire Wire Line
+	3600 4600 3600 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5F377EA2
+P 3600 4800
+F 0 "#PWR?" H 3600 4550 50  0001 C CNN
+F 1 "GND" H 3605 4627 50  0000 C CNN
+F 2 "" H 3600 4800 50  0001 C CNN
+F 3 "" H 3600 4800 50  0001 C CNN
+	1    3600 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 3700 0    50   Input ~ 0
+Fclk0
+Text GLabel 6950 4000 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	6950 4150 6950 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5F37A4CA
+P 6950 4300
+F 0 "#PWR?" H 6950 4050 50  0001 C CNN
+F 1 "GND" H 6955 4127 50  0000 C CNN
+F 2 "" H 6950 4300 50  0001 C CNN
+F 3 "" H 6950 4300 50  0001 C CNN
+	1    6950 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3550 6500 3550
+Wire Wire Line
+	6500 3550 6500 3400
+Wire Wire Line
+	6500 3400 6950 3400
+Connection ~ 6500 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5F37B3BA
+P 6500 4300
+F 0 "#PWR?" H 6500 4050 50  0001 C CNN
+F 1 "GND" H 6505 4127 50  0000 C CNN
+F 2 "" H 6500 4300 50  0001 C CNN
+F 3 "" H 6500 4300 50  0001 C CNN
+	1    6500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4000 7900 4000
+$Comp
+L power:+5V #PWR?
+U 1 1 5F37BCD5
+P 8050 4000
+F 0 "#PWR?" H 8050 3850 50  0001 C CNN
+F 1 "+5V" V 8065 4128 50  0000 L CNN
+F 2 "" H 8050 4000 50  0001 C CNN
+F 3 "" H 8050 4000 50  0001 C CNN
+	1    8050 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 3100 6800 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 5F37D8EB
+P 6800 3100
+F 0 "#PWR?" H 6800 2950 50  0001 C CNN
+F 1 "+5V" H 6815 3273 50  0000 C CNN
+F 2 "" H 6800 3100 50  0001 C CNN
+F 3 "" H 6800 3100 50  0001 C CNN
+	1    6800 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 4150 7900 4150
+Wire Wire Line
+	7900 4150 7900 4000
+Connection ~ 7900 4000
+Wire Wire Line
+	7900 4000 8050 4000
+Wire Wire Line
+	6950 3850 6500 3850
+Wire Wire Line
+	6500 3550 6500 3850
+Connection ~ 6500 3850
+Wire Wire Line
+	6500 3850 6500 4300
+Wire Wire Line
+	6950 2800 6500 2800
+Wire Wire Line
+	6500 2800 6500 3400
+Wire Bus Line
+	5000 2000 5000 3600
+Wire Bus Line
+	8200 2000 8200 3950
+Connection ~ 6500 3400
+$EndSCHEMATC
