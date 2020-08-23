@@ -1,0 +1,18 @@
+This git repo documents the design of a Direct Digital Synthesis (DDS) circuit built around
+7400 series digital logic integrated circuits. The DDS’ phase accumulator is 16 bits in size
+and its clock frequency is 100 KHz. The delta F figure (tuning step) is 1.525878 Hz.
+
+
+File                  Description
+----                  -----------
+DDS.pdf               KiCad Schematics
+5KHz.JPG              DDS output @ 5Khz
+100Hz.JPG             DDS output @ 100Hz
+CLOCKS.JPG            phase accumulator clocks
+BREADBOARD.JPG        the DDS circuit on a solderless breadboard
+DDS.pro               KiCad project file
+DDS.sch               KiCad schematic - project sheet
+PCInterface.sch       KiCad schematic - PIC microcontroller, tuning word register,
+                                        and clock divider
+PhaseAccumulator.sch  KiCad schematic - 16-bit adder and accumulator
+OutputSection.sch     KiCad schematic - Sine function ROM and DAC
