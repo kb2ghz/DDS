@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date "2020-08-01"
+Title "Control Section"
+Date "2021-07-05"
 Rev "1.0"
 Comp ""
 Comment1 ""

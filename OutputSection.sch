@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date "2020-08-01"
+Title "Output Section"
+Date "2021-07-05"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KB2GHZ:AD5330 U16
+L DDS-rescue:AD5330-KB2GHZ U16
 U 1 1 5F0E2419
 P 7400 2450
+AR Path="/5F0E2419" Ref="U16"  Part="1" 
+AR Path="/5F0F203D/5F0E2419" Ref="U16"  Part="1" 
 F 0 "U16" H 7350 2350 50  0000 C CNN
 F 1 "AD5330" H 7375 2274 50  0000 C CNN
 F 2 "" H 7400 2350 50  0001 C CNN
@@ -288,9 +290,9 @@ Wire Wire Line
 	6950 2800 6500 2800
 Wire Wire Line
 	6500 2800 6500 3400
+Connection ~ 6500 3400
 Wire Bus Line
 	5000 2000 5000 3600
 Wire Bus Line
 	8200 2000 8200 3950
-Connection ~ 6500 3400
 $EndSCHEMATC

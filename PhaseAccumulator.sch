@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title ""
-Date "2020-08-01"
+Title "Phase Accumulator"
+Date "2021-07-05"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -654,6 +654,8 @@ Text GLabel 4250 5550 0    50   Input ~ 0
 Fclk1
 Text GLabel 9250 5550 0    50   Input ~ 0
 Fclk1
+Text Notes 7050 7050 0    50   ~ 0
+Mike McCann KB2GHZ
 Wire Bus Line
 	10350 1200 10350 3050
 Wire Bus Line
@@ -670,6 +672,4 @@ Wire Bus Line
 	7700 1200 7700 4050
 Wire Bus Line
 	7150 3050 7150 5350
-Text Notes 7050 7050 0    50   ~ 0
-Mike McCann KB2GHZ
 $EndSCHEMATC
