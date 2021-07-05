@@ -1,5 +1,5 @@
 This git repo documents the design of a Direct Digital Synthesis (DDS) circuit built around
-7400 series digital logic integrated circuits. The DDS’ phase accumulator is 16 bits in size
+7400 series digital logic integrated circuits. The DDS’s phase accumulator is 16 bits in size
 and its clock frequency is 100 KHz. The delta F figure (tuning step) is 1.525878 Hz.
 
 
